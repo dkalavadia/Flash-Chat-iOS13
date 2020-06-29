@@ -58,7 +58,7 @@ class LoginViewController: UIViewController {
                 }
                 else {
                     // Navigate to Chat View Controller
-                    UserDefaults.standard.set( Auth.auth().currentUser, forKey: "user")
+                    //UserDefaults.standard.set( Auth.auth().currentUser, forKey: "user")
                     self.performSegue(withIdentifier: K.loginSague, sender: self)
                 }
             }
